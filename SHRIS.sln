@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHRIS.EF", "SHRIS.EF\SHRIS.EF.csproj", "{5F549AB2-2049-44E0-8096-27B5EB78A425}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F549AB2-2049-44E0-8096-27B5EB78A425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F549AB2-2049-44E0-8096-27B5EB78A425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F549AB2-2049-44E0-8096-27B5EB78A425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F549AB2-2049-44E0-8096-27B5EB78A425}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {683E2D28-196C-4830-AC28-BDEE42D77507}
+	EndGlobalSection
+EndGlobal
