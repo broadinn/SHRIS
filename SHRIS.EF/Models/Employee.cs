@@ -30,6 +30,7 @@ namespace SHRIS.EF.Models
 
         public Department Department { get; set; }
 
+        [ForeignKey("ManagerId")]
         public Employee Manager { get; set; }
 
         public bool SoftDeleted { get; set; }

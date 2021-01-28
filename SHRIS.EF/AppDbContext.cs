@@ -4,7 +4,6 @@ using Microsoft.EntityFrameworkCore;
 using SHRIS.EF.Extensions;
 using SHRIS.EF.Models;
 using SHRIS.EF.Models.Interface;
-using System;
 
 namespace SHRIS.EF
 {
@@ -29,11 +28,15 @@ namespace SHRIS.EF
         }
 
         public DbSet<Country> Countries { get; set; }
+        public DbSet<Currency> Currencies { get; set; }
+        public DbSet<Bank> Banks { get; set; }
         public DbSet<Location> Locations { get; set; }
         public DbSet<Office> Offices { get; set; }
         public DbSet<Department> Departments { get; set; }
         public DbSet<PersonIdentificationType> PersonIdentificationTypes { get; set; }
         public DbSet<Employee> Employees { get; set; }
+        public DbSet<PersonalDetail> PersonalDetails { get; set; } 
         public DbSet<PersonIdentification> PersonIdentifications { get; set; }
+        public DbSet<BankAccount> BankAccounts { get; set; }
     }
 }
