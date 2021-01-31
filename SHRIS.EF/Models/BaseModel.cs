@@ -1,10 +1,11 @@
-﻿using System;
+﻿using SHRIS.EF.Models.Interface;
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SHRIS.EF.Models
 {
-    class BaseModel
+    class BaseModel : ISoftDelete
     {
         [Key, Column(Order = 0)]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -17,5 +18,11 @@ namespace SHRIS.EF.Models
         public string UpdatedBy { get; set; }
 
         public DateTime? UpdatedAt { get; set; }
+
+        public string DeletedBy { get; set; }
+
+        public DateTime? DeletedAt { get; set; }
+
+        public bool SoftDeleted { get; set; } = false;
     }
 }

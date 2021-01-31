@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SHRIS.EF.Models
 {
-    class Employee : BaseModel, ISoftDelete
+    class Employee : BaseModel
     {
         public string EmployeeId { get; set; }
 
@@ -32,8 +32,6 @@ namespace SHRIS.EF.Models
 
         [ForeignKey("ManagerId")]
         public Employee Manager { get; set; }
-
-        public bool SoftDeleted { get; set; }
 
         public ICollection<EmploymentContract> EmploymentContracts { get; set; }
 

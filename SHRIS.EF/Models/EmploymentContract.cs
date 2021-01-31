@@ -1,9 +1,8 @@
-﻿using SHRIS.EF.Models.Interface;
-using System;
+﻿using System;
 
 namespace SHRIS.EF.Models
 {
-    class EmploymentContract : BaseModel, ISoftDelete
+    class EmploymentContract : BaseModel
     {
         public Employee Employee { get; set; }
         
@@ -12,7 +11,5 @@ namespace SHRIS.EF.Models
         public DateTime EndDate { get; set; }
 
         public bool IsActive { get; set; }
-
-        public bool SoftDeleted { get; set; }
     }
 }

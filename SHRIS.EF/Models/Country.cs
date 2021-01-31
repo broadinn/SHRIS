@@ -2,7 +2,7 @@
 
 namespace SHRIS.EF.Models
 {
-    class Country : BaseModel, ISoftDelete
+    class Country : BaseModel
     {
         public string ISOCode { get; set; }
 
@@ -11,7 +11,5 @@ namespace SHRIS.EF.Models
         public string Nationality { get; set; }
         
         public Currency Currency { get; set; }
-
-        public bool SoftDeleted { get; set; }
     }
 }
