@@ -2,7 +2,7 @@
 
 namespace SHRIS.EF.Models
 {
-    class Location : BaseModel
+    public class Location : BaseModel
     {
         public Country Country { get; set; }
         

@@ -2,7 +2,7 @@
 
 namespace SHRIS.EF.Models.Interface
 {
-    interface ISoftDelete
+    public interface ISoftDelete
     {
         string DeletedBy { get; set; }
 

@@ -1,6 +1,6 @@
 ﻿namespace SHRIS.EF.Models
 {
-    class ShiftSchedule : BaseModel
+    public class ShiftSchedule : BaseModel
     {
         public bool FullDayOperation { get; set; }
 

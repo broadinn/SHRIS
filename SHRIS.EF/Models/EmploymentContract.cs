@@ -2,7 +2,7 @@
 
 namespace SHRIS.EF.Models
 {
-    class EmploymentContract : BaseModel
+    public class EmploymentContract : BaseModel
     {
         public Employee Employee { get; set; }
         

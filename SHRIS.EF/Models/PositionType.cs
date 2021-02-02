@@ -1,6 +1,6 @@
 ﻿namespace SHRIS.EF.Models
 {
-    class PositionType : BaseModel
+    public class PositionType : BaseModel
     {
         public string Code { get; set; }
 

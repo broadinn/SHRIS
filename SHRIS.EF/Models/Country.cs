@@ -2,7 +2,7 @@
 
 namespace SHRIS.EF.Models
 {
-    class Country : BaseModel
+    public class Country : BaseModel
     {
         public string ISOCode { get; set; }
 

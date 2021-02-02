@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SHRIS.EF.Models
 {
-    class BaseModel : ISoftDelete
+    public class BaseModel : ISoftDelete
     {
         [Key, Column(Order = 0)]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

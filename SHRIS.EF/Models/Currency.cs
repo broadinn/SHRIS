@@ -2,7 +2,7 @@
 
 namespace SHRIS.EF.Models
 {
-    class Currency : BaseModel
+    public class Currency : BaseModel
     {
         public string Code { get; set; }
 

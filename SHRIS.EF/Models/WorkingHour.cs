@@ -1,8 +1,6 @@
-﻿using SHRIS.EF.Models.Interface;
-
-namespace SHRIS.EF.Models
+﻿namespace SHRIS.EF.Models
 {
-    class WorkingHour : BaseModel
+    public class WorkingHour : BaseModel
     {
         public bool FullDayOperation { get; set; }
 

@@ -2,7 +2,7 @@
 
 namespace SHRIS.EF.Models
 {
-    class Office : BaseModel
+    public class Office : BaseModel
     {
         public string Code { get; set; }
 

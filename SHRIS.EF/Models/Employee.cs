@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SHRIS.EF.Models
 {
-    class Employee : BaseModel
+    public class Employee : BaseModel
     {
         public string EmployeeId { get; set; }
 

@@ -2,7 +2,7 @@
 
 namespace SHRIS.EF.Models
 {
-    class PersonalDetail
+    public class PersonalDetail
     {
         public Employee Employee { get; set; }
 

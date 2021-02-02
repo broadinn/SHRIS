@@ -2,7 +2,7 @@
 
 namespace SHRIS.EF.Models
 {
-    class JobPosition : BaseModel
+    public class JobPosition : BaseModel
     {
         public Job Job { get; set; }
 

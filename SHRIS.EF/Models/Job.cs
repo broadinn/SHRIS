@@ -2,7 +2,7 @@
 
 namespace SHRIS.EF.Models
 {
-    class Job : BaseModel
+    public class Job : BaseModel
     {
         public string Code { get; set; }
         

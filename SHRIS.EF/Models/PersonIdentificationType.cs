@@ -1,6 +1,6 @@
 ﻿namespace SHRIS.EF.Models
 {
-    class PersonIdentificationType : BaseModel
+    public class PersonIdentificationType : BaseModel
     {
         public string Code { get; set; }
         

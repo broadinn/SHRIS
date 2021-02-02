@@ -1,6 +1,6 @@
 ﻿namespace SHRIS.EF.Models
 {
-    class BankAccount : BaseModel
+    public class BankAccount : BaseModel
     {
         public Employee Employee { get; set; }
 

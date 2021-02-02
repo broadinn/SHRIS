@@ -20,7 +20,7 @@ namespace SHRIS.EF.Extensions
 
         private static LambdaExpression GetSoftDeleteFilter<TEntity>() where TEntity : class, ISoftDelete
         {
-            Expression<Func<TEntity, bool>> filter = x => x.SoftDeleted;
+            Expression<Func<TEntity, bool>> filter = x => !x.SoftDeleted;
             return filter;
         }
     }
